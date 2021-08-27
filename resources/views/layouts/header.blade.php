@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Welcome | Computer Science - Crescent University, Abeokuta</title>
-    <meta name="description" content="">
+    <meta content="Computer Science Department - Crescent University, Abeokuta" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="logo.png">
