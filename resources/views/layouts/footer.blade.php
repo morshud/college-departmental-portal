@@ -48,7 +48,7 @@
                                         <span class="input-group-addon">
                                                 <button type="submit">
                                                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                                </button>  
+                                                </button>
                                             </span>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                            <p>&copy; 2017 Academics All Rights Reserved. &nbsp; Developed by<a target="_blank" href="#" rel="nofollow"> LotusHub</a></p>
+                            <p>&copy; 2021 Academics All Rights Reserved. &nbsp; Developed by<a target="_blank" href="#" rel="nofollow"> LotusHub</a></p>
                         </div>
                         {{-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                             <ul class="payment-method">

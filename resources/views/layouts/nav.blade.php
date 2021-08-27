@@ -58,7 +58,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-2 col-sm-3">
                             <div class="logo-area">
-                                <a href="index.html"><img class="img-responsive" src="/CUCSD.png" alt="logo"></a>
+                                <a href="/"><img class="img-responsive" src="/CUCSD.png" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-9">
@@ -114,6 +114,12 @@
                                     </li>
                                     <li>
                                         <a href="{{route('contact')}}">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a class="login-btn-area" href="{{route('student.login')}}" id=""><i class="fa fa-lock" aria-hidden="true"></i>Student Portal</a>
+                                    </li>
+                                    <li>
+                                        <a class="login-btn-area" href="{{route('lecturer.login')}}" id="login-button"><i class="fa fa-lock" aria-hidden="true"></i>Staff Portal</a>
                                     </li>
                                 </ul>
                             </nav>

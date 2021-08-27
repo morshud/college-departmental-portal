@@ -160,6 +160,12 @@
                                     <li>
                                         <a href="{{route('contact')}}">Contact</a>
                                     </li>
+                                    <li>
+                                        <a class="login-btn-area" href="{{route('student.login')}}" id=""><i class="fa fa-lock" aria-hidden="true"></i>Student Portal</a>
+                                    </li>
+                                    <li>
+                                        <a class="login-btn-area" href="{{route('lecturer.login')}}" id="login-button"><i class="fa fa-lock" aria-hidden="true"></i>Staff Portal</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
