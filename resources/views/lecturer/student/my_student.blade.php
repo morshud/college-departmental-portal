@@ -28,9 +28,10 @@
                             }
                         @endphp
                         @php
+
                             $my_student = \App\Models\StudentCourse::where('course_id', $lec)->get();
                             if (count($my_student)) {
-                                foreach ($stud_id as $key => $value) {
+                                foreach ($my_student as $key => $value) {
                                     $stud = $value->student_id;
                                 }
                                 $student = \App\Models\Student::where('id', $stud)->get();
@@ -77,8 +78,8 @@
                                     <td></td>
                                 </tr>
                             @endif
-                            
-                            
+
+
                         </tbody>
                         {{-- <tfoot>
                             <tr>
