@@ -43,7 +43,7 @@
 
 <body>
 <div id="preloader"></div>
-<div id="wrapper">  
+<div id="wrapper">
     <header>
         <div id="header2" class="header2-area">
             <div class="header-top-area">
@@ -61,7 +61,7 @@
                             <div class="header-top-right">
                                 <ul>
                                     <li>
-                                        <a class="login-btn-area" href="{{route('student.login')}}" id=""><i class="fa fa-lock" aria-hidden="true"></i>Student Portal</a>
+                                        <a class="login-btn-area" href="{{route('student.login')}}"><i class="fa fa-lock" aria-hidden="true"></i> Student Portal</a>
                                         {{-- <div class="login-form" id="login-form" style="display: none;">
                                             <div class="title-default-left-bold">Login</div>
                                             <form>
@@ -77,7 +77,7 @@
                                         </div> --}}
                                     </li>
                                     <li>
-                                        <a class="login-btn-area" href="{{route('lecturer.login')}}" id="login-button"><i class="fa fa-lock" aria-hidden="true"></i>Staff Portal</a>
+                                        <a class="login-btn-area" href="{{route('lecturer.login')}}"><i class="fa fa-lock" aria-hidden="true"></i> Staff Portal</a>
                                         {{-- <div class="login-form" id="login-form" style="display: none;">
                                             <div class="title-default-left-bold">Login</div>
                                             <form>
@@ -89,7 +89,7 @@
                                                 <span><input type="checkbox" name="remember"/>Remember Me</span>
                                                 <button class="default-big-btn" type="submit" value="Login">Login</button>
                                                 <button class="default-big-btn form-cancel" type="submit" value="">Cancel</button>
-                                            </form> 
+                                            </form>
                                         </div> --}}
                                     </li>
                                 </ul>
@@ -161,10 +161,10 @@
                                         <a href="{{route('contact')}}">Contact</a>
                                     </li>
                                     <li>
-                                        <a class="login-btn-area" href="{{route('student.login')}}" id=""><i class="fa fa-lock" aria-hidden="true"></i>Student Portal</a>
+                                        <a class="login-btn-area" href="{{route('student.login')}}"><i class="fa fa-lock" aria-hidden="true"></i> Student Portal</a>
                                     </li>
                                     <li>
-                                        <a class="login-btn-area" href="{{route('lecturer.login')}}" id="login-button"><i class="fa fa-lock" aria-hidden="true"></i>Staff Portal</a>
+                                        <a class="login-btn-area" href="{{route('lecturer.login')}}"><i class="fa fa-lock" aria-hidden="true"></i> Staff Portal</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -188,7 +188,7 @@
                         <div class="title-container s-tb-c">
                             <div class="title1">Welome To Crescent University, Computer Science</div>
                             <p style="text-transform: capitalize;">
-                                Where the mission is to ensure the delivery of university education in ways that recognize 
+                                Where the mission is to ensure the delivery of university education in ways that recognize
                                 <br>
                                 personal discipline and integrity and promote positive societal values.
                             </p>
@@ -200,7 +200,7 @@
                         <div class="title-container s-tb-c">
                             <div class="title1">We Are Here for You to Live and Learn</div>
                             <p style="text-transform: capitalize;">
-                                At crescent university we live and learn. Once we make up our mind to tackle an issue, 
+                                At crescent university we live and learn. Once we make up our mind to tackle an issue,
                                 <br>
                                 we begin taking bold steps to improve in that area. This is our philosophy.
                             </p>
@@ -211,10 +211,10 @@
                     <div class="slider-content s-tb slide-3">
                         <div class="title-container s-tb-c">
                             <div class="title1">Crescent Varsity Canvasses for National Development</div>
-                            <p>Crescent University, Abeokuta, has identified religion and national development as Siamese twins capable of 
+                            <p>Crescent University, Abeokuta, has identified religion and national development as Siamese twins capable of
                                 <br>
                                 making human life a success, at its tenth founder's day lecture.</p>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                 </div>
             </div>
         </div>
-        <!-- Service 1 Area End Here -->{{-- 
+        <!-- Service 1 Area End Here -->{{--
     <!-- Slider 1 Area Start Here -->
         <div class="slider1-area overlay-default">
             <div class="bend niceties preview-1">
@@ -541,7 +541,7 @@
                             <div class="tlp-tm-content-wrapper">
                                 <h3 class="item-title"><a href="#">ABDUL'AKEEM ADESOKAN</a></h3>
                                 <span class="item-designation">Graduated</span>
-                                
+
                                 <div class="item-content">Quality education is beyond what we are taught, it's defined by how much opportunity is given to us to learn beyond what could be imparted. Crescent University gives all it takes to be greater than our dreams.</div>
                             </div>
                         </div>
