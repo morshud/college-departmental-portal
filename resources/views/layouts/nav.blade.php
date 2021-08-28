@@ -7,8 +7,8 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="header-top-left">
                                 <ul>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="Tel:+1234567890"> + 123 456 78910 </a></li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="index2.html#">info@academics.com</a></li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="Tel:+1234567890"> +234(0)7098812551  </a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">info@crescent-university.edu.ng</a></li>
                                 </ul>
                             </div>
                         </div>
