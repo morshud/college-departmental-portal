@@ -105,7 +105,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel33">Edit Time-Tabel</h4>
+                    <h4 class="modal-title" id="myModalLabel33">Edit Time-Table</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                     aria-label="Close"></button>
                     </button>

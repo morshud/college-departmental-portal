@@ -1,4 +1,4 @@
-<div id="wrapper">  
+<div id="wrapper">
     <header>
         <div id="header2" class="header2-area">
             <div class="header-top-area">
@@ -44,7 +44,7 @@
                                                 <span><input type="checkbox" name="remember"/>Remember Me</span>
                                                 <button class="default-big-btn" type="submit" value="Login">Login</button>
                                                 <button class="default-big-btn form-cancel" type="submit" value="">Cancel</button>
-                                            </form> 
+                                            </form>
                                         </div> --}}
                                     </li>
                                 </ul>
@@ -116,10 +116,10 @@
                                         <a href="{{route('contact')}}">Contact</a>
                                     </li>
                                     <li>
-                                        <a class="login-btn-area" href="{{route('student.login')}}" id=""><i class="fa fa-lock" aria-hidden="true"></i>Student Portal</a>
+                                        <a class="login-btn-area" href="{{route('student.login')}}"><i class="fa fa-lock" aria-hidden="true"></i> Student Portal</a>
                                     </li>
                                     <li>
-                                        <a class="login-btn-area" href="{{route('lecturer.login')}}" id="login-button"><i class="fa fa-lock" aria-hidden="true"></i>Staff Portal</a>
+                                        <a class="login-btn-area" href="{{route('lecturer.login')}}"><i class="fa fa-lock" aria-hidden="true"></i> Staff Portal</a>
                                     </li>
                                 </ul>
                             </nav>
