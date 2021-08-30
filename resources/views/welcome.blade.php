@@ -186,7 +186,7 @@
                 <div id="slider-direction-1" class="t-cn slider-direction">
                     <div class="slider-content s-tb slide-1">
                         <div class="title-container s-tb-c">
-                            <div class="title1">Welome To Crescent University, Computer Science</div>
+                            <div class="title1">Welome to the Department of Computer Science, Crescent University, Abeokuta</div>
                             <p style="text-transform: capitalize;">
                                 Where the mission is to ensure the delivery of university education in ways that recognize
                                 <br>
