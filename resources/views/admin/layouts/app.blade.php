@@ -189,5 +189,22 @@
         });
     }
 
+    function edit_event(event) {
+        var url = '{{ route("event.edit", ":id") }}';
+        url = url.replace(':id', event);
+
+        $.ajax({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            url: url,
+            type: 'GET',
+            success: function (response) {
+                $('#edit_modal_body').html(response);
+                $('#edit-event-modal').modal('show');
+            }
+        });
+    }
+
 
 </script>

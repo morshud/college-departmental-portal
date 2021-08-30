@@ -38,7 +38,7 @@
                                     <th scope="col">Department</th>
                                     <th scope="col">Gender</th>
                                     <th scope="col">Email</th>
-                                    <th scope="col">Pnone Number</th>
+                                    <th scope="col">Phone Number</th>
                                     <th scope="col" colspan="2">Status</th>
                                 </tr>
                             </thead>
@@ -76,7 +76,7 @@
                                         <th scope="row">Nothing found</th>
                                     </tr>
                                 @endif
-                                
+
                             </tbody>
                         </table>
                     </div>

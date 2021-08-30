@@ -69,9 +69,10 @@ class EventController extends Controller
      * @param  \App\Models\Event  $event
      * @return \Illuminate\Http\Response
      */
-    public function edit(Event $event)
+    public function edit($id)
     {
-        //
+        $data['event_data'] = Event::findOrFail($id);
+        return view('admin.event.edit', $data);
     }
 
     /**
@@ -81,9 +82,18 @@ class EventController extends Controller
      * @param  \App\Models\Event  $event
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Event $event)
+    public function update(Request $request, $id)
     {
-        //
+        $events = Event::findOrFail($id);
+        $events->type = $request->type;
+        $events->title = $request->title;
+        $events->description = $request->description;
+        $save = $events->save();
+        if ($save) {
+            return redirect()->back()->with('success', 'Event has been updated successfully');
+        } else {
+            return redirect()->back()->with('error', 'Something went wrong!');
+        }
     }
 
     /**

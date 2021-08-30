@@ -96,6 +96,7 @@
                                                     <input type="hidden" name="email" value="{{Auth::guard('student')->user()->email}}"> {{-- required --}}
                                                     <input type="hidden" name="amount" value="{{$item->amount + $item->charges}}00">
                                                     <input type="hidden" name="orderId" value="{{Auth::guard('student')->user()->id}}">
+                                                    <input type="hidden" name="phone" value="{{Auth::guard('student')->user()->phone_number}}">
                                                     <input type="hidden" name="currency" value="NGN">
                                                     <button type="submit" class="btn btn-info">Pay Now</button>
                                                 </form>

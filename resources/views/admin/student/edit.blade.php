@@ -11,7 +11,7 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="form-group mb-2">
                         <label for="checkout-pincode">Matric Number:</label>
-                        <input type="text" id="" class="form-control" value="{{$student_data->matric}}" name="matric" placeholder="S216202007" required/>
+                        <input type="text" id="" class="form-control" value="{{$student_data->matric}}" name="matric" placeholder="S216202000" required/>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">

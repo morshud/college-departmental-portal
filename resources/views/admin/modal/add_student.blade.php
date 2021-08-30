@@ -21,7 +21,7 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="form-group mb-2">
                         <label for="checkout-pincode">Matric Number:</label>
-                        <input type="text" id="" class="form-control" name="matric" placeholder="S216202007" required/>
+                        <input type="text" id="" class="form-control" name="matric" placeholder="S216202000" required/>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
@@ -33,7 +33,7 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="form-group mb-2">
                         <label for="checkout-pincode">Phone Number:</label>
-                        <input type="text" id="" class="form-control" name="phone" placeholder="Course Title" required/>
+                        <input type="text" id="" class="form-control" name="phone" placeholder="Phone Number" required/>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
